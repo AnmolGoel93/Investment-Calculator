@@ -1,0 +1,15 @@
+.logo-header {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.logo-header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.logo-header h2 {
+  font-size: 1.5rem;
+}

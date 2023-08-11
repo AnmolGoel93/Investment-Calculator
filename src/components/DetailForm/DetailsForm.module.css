@@ -1,0 +1,68 @@
+.form {
+  padding: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #307e6c, #2b996d);
+}
+
+.detail-form__controls {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.input-form__control label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e1eeeb;
+}
+
+.input-form__control input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #76c0ae;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #c2e9e0;
+  font-size: 1rem;
+}
+
+.detail_form__actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.reset {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: transparent;
+  border: none;
+  color: #c2e9e0;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: transparent;
+  color: #91e1d0;
+}
+
+.submit {
+  color: #c2e9e0;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+  background: linear-gradient(180deg, #1f584b, #17493d);
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.submit:hover {
+  background: linear-gradient(180deg, #1b5346, #113c32);
+}
